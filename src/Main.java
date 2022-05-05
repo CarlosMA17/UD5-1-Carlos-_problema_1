@@ -30,5 +30,11 @@ public class Main {
                 salir = true;
             }
         }
+        float suma = 0;
+        for (int i = 0; i<ImplementarCola.data.length; i++) {
+            System.out.println(ImplementarCola.data[i]);
+            suma = suma + ImplementarCola.data[i];
+        }
+        System.out.println("sumados dan: " + suma);
     }
 }
